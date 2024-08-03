@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+        
+#no1 h1{margin-left: 80px;}
+#no1{background-color: rgb(15, 190, 103); padding-top: 0%;}
+#no1 #s1{color: white; font-size: 52px;}
+#no1 #s2{color: gray; font-family: 'Georgia';}
+#no1 #b{border: none; background-color: transparent; margin-top: 45px; font-size: 16px; color: gray; margin-left: 20px;}
+#no1 #b:hover{color: white;}
+#no1 #log{background-color: white; border: 4px solid white; border-radius: 15px; margin-top: 40px; color: rgb(15, 190, 103);}
+#no1 #log:hover{background-color: rgb(15, 190, 103); color: white;}
+#no1 #img{height: 50vh; width: 50vh; border-radius: 100%; background-position: center; margin-top: 30px; background-size: cover;}
+#no1 #in{height: 57vh; width: 50vh;}
+#no1 #imt{padding-left: 80px; padding-right: 80px;}
+#no1 #nav1{height: 30px; background-color: white;}
+#no1 #a{margin-left: 23px; font-size: 15px; font-family: 'Georgia'; margin-top: 3.5px; text-decoration: none;}
+#no1 #e{color: rgb(15, 190, 103); font-size: 18px;}
+#no1 #g{color: gray;font-family: 'Goergia';}
+#no1 #p1{font-size: 48px; color: white; text-align: left; margin-top: 30px;}
+#no1 #p2{font-size: 20px; color: white;}
+#no1 #md{width: 60vh;}
+#no1 #mh{background-color: rgb(15, 190, 103);}
+#no1 #center1{color: white; font-size: 30px;}
+#no1 #nu{text-decoration: none;}
+#no1 #mf{background-color: rgb(15, 190, 103);}
+#no1 #dm{background-color: gray;}
+#no1 #ai{text-decoration: none; color: white; line-height: 50px;}
+#no1 #ai:hover{color: black;}
+#no1 .active{background-color: gray; border: none;}
+#no1 .item{background-color: transparent;}
+
+
+#no3 img{height: 30vh; width: 30vh; border-radius: 3px;}
+#no3 .thumbnail{width: 30vh; height: auto;}
+#no3 .caption{text-align: center;}
+</style>
+</head>
+<body>
+<div id="no1">
+    <div id="nav1" class="col-xs-12">
+        <a class="col-md-2 col-xs-12" id="a" href=""><b><span id="e"><i class="fa-duotone fa-solid fa-leaf"></i>Ever</span><span id="g">green</span></b></a>
+    </div>
+    <div id="nav2" class="navbar">
+        <div class="col-md-6 col-xs-12"><h1><b><span id="s1">Ever</span><span id="s2">green</span></b></h1></div>
+
+            <div class="dropdown col-md-4 col-xs-12">
+                <button id="b" class="" data-toggle="dropdown"><b><i class="fa-sharp fa-solid fa-house-chimney"></i> Home</b> <i class="fa-solid fa-caret-down"></i></button>
+                    <ul id="dm" class="dropdown-menu">
+                    <li><a id="ai" href=""><i class="fa-solid fa-phone"></i> Contact</a></li>
+                    <li><a id="ai" href=""><i class="fa-solid fa-newspaper"></i> News & Events</a></li>
+                    <li><a id="ai" href=""><i class="fa-solid fa-blog"></i> Blog</a></li>
+                    <li><a id="ai" href=""><i class="fa-solid fa-map-location-dot"></i> Location</a></li>
+                    </ul>
+                    <button id="b"><b><i class="fa-solid fa-address-card"></i> About Us</button>
+                    <button id="b"><b><i class="fa-solid fa-truck-fast"></i> Services</button>
+            </div>
+           
+        <button id="log" class="col-md-1 col-xs-12" data-toggle="modal" data-target="#myModal">Login</button>
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog" id="md">
+    
+                    <div class="modal-content">
+                        <div class="modal-header" id="mh">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title"><center id="center1">LOGIN</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="">Mob no. / E-mail:</label>
+                                    <input type="text" class="form-control" placeholder="Type to text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Password:</label>
+                                    <input type="password" class="form-control" placeholder="******">
+                                </div>
+                                <div class="form-group"><input type="checkbox">Checkbox</div>
+                                <div class="form-group"><center>Forgot <a id="nu" href="">Username / Password</a> ?</center></div>
+                                <div class="form-group"><center>Don't have an account? <a id="nu" href="">Sign up</a></center></div>
+                            </form>
+                        </div>
+                        <div id="mf" class="modal-footer">
+                            <button type="submit" class="btn btn-succes">Submit</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        <div id="imt" class="col-xs-12 container">
+            <div id="d1" class="col-md-6 col-xs-12">
+            <div class="carousel slide" id="carousel1" data-ride="carousel">
+                 <div id="in" class="carousel-inner">
+                    <div class="item active" data-interval="100">
+                        <img id="img" src="aia.webp">
+                    </div>
+                    <div class="item">
+                        <img id="img" src="aib.webp">
+                    </div>
+                    <div class="item">
+                        <img id="img" src="aic.webp">
+                    </div>
+                    <div class="item">
+                        <img id="img" src="aid.webp">
+                    </div>
+                    <ul id="cai" class="carousel-indicators">
+                        <li id="ds" data-target="#carousel1" data-slide-to="0" class="active"></li>
+                        <li id="ds" data-target="#carousel1" data-slide-to="1"></li>
+                        <li id="ds" data-target="#carousel1" data-slide-to="2"></li>
+                        <li id="ds" data-target="#carousel1" data-slide-to="3"></li>
+                     </ul>
+                </div>
+            </div>
+            </div>
+            <div id="d2" class="col-md-6 col-xs-12">
+                <p id="p1">LIFE IN LOVE WITH PLANTS</p>
+                <p id="p2">*Plants play a significant role in our lives. Without plants, there would be no more life existing on planet earth.<br><br>
+                           *The ecosystem we live in is mainly composed of biotic and abiotic components.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="no2" class="navbar">
+     
+</div>
+
+
+<div id="no3" class="col-xs-12">
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai1.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai2.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai3.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai4.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai5.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai6.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai7.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai8.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai9.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai10.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai11.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai12.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai3.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai4.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai5.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai16.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai7.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai8.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai9.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai20.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai21.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai22.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai23.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+            <a href=""><img src="ai24.webp" target="_blank"></a>
+              <div class="caption">
+                  <h5>Small Tree</h5>
+                  <small>From <i class="fa-solid fa-indian-rupee-sign"></i>299 Only</small>
+
+              </div>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
