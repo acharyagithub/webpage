@@ -1,0 +1,260 @@
+*{font-family: 'Georgia';}
+
+
+
+/* nav1 */
+@media (min-width:0px) and (max-width:498px) { #bta {display: none;} #btb {display: none;} #msg {display: none;} }
+@media (min-width:498px) and (max-width:2000px) { #lg {display: none;} #lg #fo {display: none;} }
+
+#nav1{color: whitesmoke; height: 100%; background-color: black;border-radius: 0%; padding-top: 17px;}
+
+#nav1 #nv1{font-size: 13px; border-right: 1px solid white; margin-top: 15px; text-align: center;}
+
+#nav1 #nv1a{color: rgb(32, 115, 148); margin-right: 8px;}
+
+#nav1 #nv2{font-size: 13px; margin-top: 15px; text-align: center;}
+
+#nav1 #msg{font-size: auto; text-align: right; margin-top: 10px;}
+
+#nav1 #img1{height: 30px; width: 30px; bag}
+
+#nav1 #nv3{font-size: 13px; margin-top: 8px;}
+
+#nav1 #bta{background-color: rgb(67, 169, 209); border: none; width: 80%; height: 30px; color: white;}
+
+#nav1 #btb{background-color: rgb(67, 169, 209); border: none; width: 100%; height: 30px; color: white;}
+
+#nav1 span{margin-right: 5px;}
+
+#nav1 .lga{margin-bottom: 15px;}
+
+#nav1 #lga1{font-size: 13px; margin-top: 8px;}
+
+#nav1 #lga2{background-color: rgb(67, 169, 209); border: none; width: 80%; height: 30px;}
+
+#nav1 #lga3{margin-right: 5px;}
+
+#nav1 .lgb{display: flex; padding-left: 110px; margin-bottom: 15px;}
+
+#nav1 .fo1{height: 20px; width: 20px; border: 1.5px solid blue; border-radius: 20%; padding-left: 5px; margin-right: 10px;}
+#nav1 #foa{color: blue;}
+
+#nav1 .fo2{height: 20px; width: 20px; border: 1.5px solid palevioletred; border-radius: 20%; padding-left: 3px; margin-right: 10px;}
+#nav1 #fob{color: palevioletred;}
+
+#nav1 .fo3{height: 20px; width: 20px; border: 1.5px solid blue; border-radius: 20%; padding-left: 3px; margin-right: 10px;}
+#nav1 #foc{color: blue;}
+
+#nav1 .fo4{height: 20px; width: 20px; border: 1.5px solid green; border-radius: 20%; padding-left: 3px; margin-right: 10px;}
+#nav1 #fod{color: green;}
+
+#nav1 .fo5{height: 20px; width: 20px; border: 1.5px solid red; border-radius: 20%; padding-left: 2px; margin-right: 10px;}
+#foe{color: red;}
+
+/* nav2 */
+
+#nav2 h1{margin-top: 7px;}
+
+#nav2 #s1{color:rgb(67, 169, 209);}
+
+#nav2 #s2{color:  rgb(200, 208, 211);}
+
+#nav2 button{color: black; text-decoration: none; text-align: right; margin-top: 18px; background-color: white; border: none;}
+
+#nav2 span{color: rgb(11, 105, 142); }
+
+#nav2 #df{display: flex;}
+
+#nav2 #a{color: black; margin-top: 9px; text-decoration: none;}
+
+#nav2 i{color: #0a9dff;}
+
+#nav2 a{color: #0a9dff; font-size: 15px; margin-left: 5px; line-height: 39px;}
+
+#nav2 #dm1{background-color: whitesmoke; border-bottom: 2px solid #0a9dff; width: 240px;}
+
+#nav2 #dm2{background-color: whitesmoke; border-bottom: 2px solid #0a9dff; width: 400px; text-align: left; padding: 0%;}
+
+#nav2 a:hover{background-color: white;}
+
+#nav2 li{padding: 0%;}
+
+#nav2 img{height: 30px; width: 30px; border-radius: 100%; margin-right: 2px;}
+
+#nav2 #cap{color: #0a9dff;}
+
+
+
+#cai li{border: none; float: right; background-color: white; margin-right: 5px;}
+#cai .active{background-color:brown;}
+
+
+
+/* about quantumware */
+#aq{margin-top: 40px;}
+
+#aq{
+    margin-top: 30px; }
+#aq hr{
+    width: 60px;
+    border:1px solid #0e5aa5;
+    margin-top: 30px;
+}
+#aq h2{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to bottom,#0099FF,#003366);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+#aq .b{
+    margin-top: 150px;
+}
+#aq .a{
+    margin-top: 30px;
+    text-align: center;
+}
+#aq p{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    color: gray;
+}
+#aq p:hover{
+    color: black;
+}
+#aq p{
+    font-size: 18px;
+    text-align: justify;
+}
+#aq button{
+    background: linear-gradient(to right,#0a9dff,#003366);
+    width: 140px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman';
+    border: none;
+    margin-left: 10px;
+    margin-top: 15px;   
+}
+
+
+
+/* our services */
+#os{margin-top: 40px;}
+
+#osh2{ text-align: center;
+    background: linear-gradient(to bottom,#0099FF,#003366);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     }/*header*/
+
+#os hr{width: 60px; border:1px solid rgb(17, 107, 180); margin-top: 20px; margin-bottom: 30px;}/*hr line*/
+
+#os h4{color:rgb(12, 142, 248);}/*caption*/
+
+#os p{font-size: 13px;}/*paragraph*/
+
+#os .thumbnail{height: 220px; width: 260px; border-top: none; border-bottom: none;}
+
+#os .caption{text-align: center;}
+
+
+
+/* our clients */
+#oc h2{ text-align: center;
+    background: linear-gradient(to bottom,#0099FF,#003366);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      }/*header*/
+
+#oc hr{width: 60px; border:1px solid rgb(17, 107, 180); margin-top: 20px; margin-bottom: 30px;}
+
+#oc #dot{border: 2px dotted blue;}
+
+#oc img{width: 100%;}
+
+
+
+/* testimonials */
+#tm{margin-top: 40px;}
+
+#tm  h2{ text-align: center;
+    background: linear-gradient(to bottom,#0099FF,#003366);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      }/*header*/
+
+#tm hr{width: 60px; border:1px solid rgb(17, 107, 180); margin-top: 20px; margin-bottom: 30px;}
+
+#tm #ac{background-color: rgb(239, 232, 232); padding: 100px;}
+
+#tm p{justify-content: center;}
+
+#tm #tc{text-align: center;}
+
+#tm img{height: 100px; width: 100px; border-radius: 100%;}
+
+#tm #s1{color: black;}
+
+#tm #s2{color: red;}
+
+#tm{margin-bottom: 40px;}
+
+
+
+/* footer */
+#bg{font-family: 'Georgia';}
+
+#bg{background-color: black;}/* univarsal back color*/
+
+.footer{padding-top: 18px; padding-left: 15px;}/*footer div*/
+
+#fo5{width: 25px; height: 25px; border: 1.5px solid; padding-top: 2px; padding-left: 4px; margin-top: 10px;}/*font div*/
+
+#flex{display: flex;}/*div*/
+
+h5{color: whitesmoke; font-family: 'Georgia'; margin-bottom: 16px;}/*header*/
+
+#b a{font-size: 17px; color: gray; text-decoration: none; line-height: 30px;}/*links*/
+
+i{margin-right: 4px;}/*space between font/links */
+
+#flex a{text-decoration: none;}
+
+#b a:hover{color: white;}/*h5 service/useful link*/
+
+#flex #a{margin-left: 18px; margin-top: 13px; font-size: 17px;}/*h5 follow us*/
+
+#flex p{font-size: 16px; color: gray; margin-left: 8px; font-family: 'Georgia'; margin-top: 10px;}
+#flex p:hover{color: white;}/*h5 address*/
+
+#sec{margin-top: 45px; margin-bottom: 30px;}/*sec col*/
+
+button{border: 7px solid gray; color: black; background-color: gray; margin-bottom: 10px; margin-right: 2px;}/* tags */
+
+hr{width: 100%; border: 1px solid gray;}/*hr*/
+
+#thd p{font-size: 16px; font-family: 'Georgia'; color: gray;} /*rights*/
+
+/* follow us */
+#flex .fac{color: blue;}
+#flex i{color: blue;}
+#flex .ins{color: rgb(210, 31, 183);}
+#flex #pin{color: rgb(210, 31, 183);}
+#flex .pi{color: rgb(210, 31, 183);}
+#flex .lin{color: blue;}
+#flex .twi{color: blue;}
+#flex .you{color: red;}
+#flex #red{color: red;}
+#flex .re{color: red;}
+
+/* address */
+#flex .loc{color: red;}
+#flex #lo{color: red;}
+#flex .pho{color: cornflowerblue;}
+#flex #ph{color: cornflowerblue;}
+#flex .env{color: rgb(236, 34, 226);}
+#flex #en{color: rgb(236, 34, 226);}
