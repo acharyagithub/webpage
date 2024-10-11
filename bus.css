@@ -1,0 +1,107 @@
+*{margin: 0;
+padding: 0;}
+body{overflow: hidden;
+}
+.bg{
+    background-image: url("cloud.webp");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    animation: shakeTrees linear .9s infinite;
+}
+.sun{
+    background-image: url("sun.png");
+    height: 90vh;
+    position: relative;
+    left: 200px;
+    background-repeat: no-repeat;
+    animation: shakeSun linear .9s infinite;
+}
+.trees{
+    height: 61vh;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-image: url("mountain.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0vh;
+}
+.track{
+    height: 40vh;
+    width: 1500vw;
+    background-image: url("track.png");
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 85vh;
+    animation: busMove linear .2s infinite;
+}
+.bus{
+    height: 140px;
+    width: 400px;
+    background-image: url("bus2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 500px;
+    bottom: 100px;
+    animation: shake linear .6s infinite;
+}
+.wheel1 img{
+    width: 63px;
+    position: relative;
+    top: 96px;
+    left: 74px;
+    animation: wheelRotation linear .2s infinite;
+}
+.wheel2 img{
+    width: 60px;
+    position: relative;
+    top: 22px;
+    left: 325px;
+    animation: wheelRotation linear .2s infinite;
+}
+@keyframes wheelRotation{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes busMove{
+    100%{
+        transform: translate(-5vw);
+    }
+}
+@keyframes shake{
+    0%{
+        transform: translatey(-8px);
+    }
+    50%{
+        transform: translatey(-10px);
+    }
+    100%{
+        transform: translatey(-8px);
+    }
+}
+@keyframes shakeTrees{
+    0%{
+        transform: translatey(-20px);
+    }
+    50%{
+        transform: translatey(-26px);
+    }
+    100%{
+        transform: translatey(-21px);
+    }
+}
+@keyframes shakeSun{
+    0%{
+        transform: translatey(-10px);
+    }
+    50%{
+        transform: translatey(-8px);
+    }
+    100%{
+        transform: translatey(-11px);
+    }
+}
